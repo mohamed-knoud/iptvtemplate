@@ -31,7 +31,18 @@ nav span{
 #hero{
     position: relative;
     margin-bottom: 100px;
+    animation: move 2s alternate;
 }
+
+@keyframes move {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 #hero p:nth-child(1){
     font-size: 4em;
     color: #fff;
@@ -98,6 +109,9 @@ nav span{
 #slider{
     margin-bottom: 30px;
     margin-left: 100px;
+    animation: move 2s alternate;
+
+    animation-timeline: view();
 }
 
 #three{
@@ -106,6 +120,9 @@ nav span{
     margin: auto;
     color: white;
     margin-bottom: 40px;
+    animation: move 2s alternate;
+
+    animation-timeline: view();
 }
 
 #three div{
@@ -139,6 +156,9 @@ i + p{
     height: 400px;
     object-fit: cover;
     border-radius: 20px;
+    animation: move 2s alternate;
+
+    animation-timeline: view();
 }
 
 #images{
@@ -168,6 +188,9 @@ i + p{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    animation: move 2s alternate;
+
+    animation-timeline: view();
 }
 #prices i{
     font-size: 1.5em;
@@ -231,6 +254,9 @@ i + p{
     margin: auto;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    animation: move 2s alternate;
+
+    animation-timeline: view();
 }
 #work i{
     font-size: 8.5em;
@@ -301,6 +327,9 @@ i + p{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 30px;
+    animation: move 2s alternate;
+
+    animation-timeline: view();
   }
 
   #app,#accor{

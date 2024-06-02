@@ -108,7 +108,6 @@ nav span{
 
 #slider{
     margin-bottom: 30px;
-    margin-left: 100px;
     animation: move 2s alternate;
 
     animation-timeline: view();

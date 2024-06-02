@@ -286,7 +286,7 @@ i + p{
     width:33%;
 }
 .work span{
-    font-size: 1.3em;
+    font-size: 1.9em;
     margin-bottom: 10px;
 }
 
@@ -296,7 +296,7 @@ i + p{
     padding: 10px 20px;
     border-radius: 20px;
     font-weight: bold;
-    /* font-size: 1.3em; */
+    font-size: 1.3em;
     /* margin-left: 100px; */
     margin-top: 90px;
     width:150px;
@@ -309,7 +309,7 @@ i + p{
     color: #fff;
     cursor: pointer;
     padding: 18px;
-    width: 60%;
+    width: 80%;
     border: none;
     text-align: left;
     outline: none;
@@ -326,7 +326,7 @@ i + p{
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    width: 50%;
+    width: 80%;
     margin-left: 100px;
     margin: 20px 100px;
     color: white;

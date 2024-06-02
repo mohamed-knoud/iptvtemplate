@@ -29,6 +29,10 @@
         <img class="slider" src="slider_logo5.png" alt="slider_logo5"/>
         <img class="slider" src="slider_logo6.png" alt="slider_logo6"/>
         <img class="slider" src="slider_logo7.png" alt="slider_logo7"/>
+        <img class="slider" src="slider_logo8.png" alt="slider_logo8"/>
+        <img class="slider" src="slider_logo9.png" alt="slider_logo9"/>
+        <img class="slider" src="slider_logo11.png" alt="slider_logo11"/>
+        <img class="slider" src="slider_logo10.svg" alt="slider_logo10"/>
     </div>
     <div id="three">
         <div>
@@ -59,6 +63,12 @@
         <img class="images" src="https://image.tmdb.org/t/p/original/qrGtVFxaD8c7et0jUtaYhyTzzPg.jpg" alt="image"/>
         <img class="images" src="https://image.tmdb.org/t/p/original/4XM8DUTQb3lhLemJC51Jx4a2EuA.jpg" alt="image"/>
         <img class="images" src="https://image.tmdb.org/t/p/original/42rp8MkwOEFA62wwgKcuOpP8Fjb.jpg" alt="image"/>
+        <img class="images" src="https://image.tmdb.org/t/p/original//qwK9soQmmJ7kRdjLZVXblw3g7AQ.jpg" alt="image"/>
+        <img class="images" src="https://image.tmdb.org/t/p/original//3TNSoa0UHGEzEz5ndXGjJVKo8RJ.jpg" alt="image"/>
+        <img class="images" src="https://image.tmdb.org/t/p/original//H5HjE7Xb9N09rbWn1zBfxgI8uz.jpg" alt="image"/>
+        <img class="images" src="https://image.tmdb.org/t/p/original//1m1rXopfNDVL3UMiv6kriYaJ3yE.jpg" alt="image"/>
+        <img class="images" src="https://image.tmdb.org/t/p/original//xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg" alt="image"/>
+
     </div>
     <p>Choose your plan</p>
     <p id="not">Not sure? <span>Try our 24h free trial</span></p>
@@ -231,5 +241,52 @@ Netherlands Belgium France UK Germany Switzerland Austria Poland Spain Malta Por
     }
     </script>
     <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script>
+    $(document).ready(function(){
+    $('#slider').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+    $('#images').slick({
+        variableWidth: true,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+</script>
 </body>
 </html>

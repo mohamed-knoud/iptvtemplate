@@ -399,7 +399,7 @@ i + p{
     /* margin: 30px auto 0 ; */
     cursor: pointer;  
 }
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
     #logo_hero{
        display: none;
         }

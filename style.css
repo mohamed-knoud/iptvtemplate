@@ -11,7 +11,7 @@ body{
 nav{
     background-color: #121212;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 15px;
 }
 
@@ -103,14 +103,15 @@ nav span{
     width:150px;
     height: auto;
     object-fit: cover;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 #slider{
     margin-bottom: 30px;
-    animation: move 2s alternate;
+    margin-left: 100px;
+    /* animation: move 2s alternate;
 
-    animation-timeline: view();
+    animation-timeline: view(); */
 }
 
 #three{
@@ -119,9 +120,9 @@ nav span{
     margin: auto;
     color: white;
     margin-bottom: 40px;
-    animation: move 2s alternate;
+    /* animation: move 2s alternate;
 
-    animation-timeline: view();
+    animation-timeline: view(); */
 }
 
 #three div{
@@ -166,9 +167,9 @@ i + p{
     height: 400px;
     object-fit: cover;
     border-radius: 20px;
-    animation: move 2s alternate;
+    /* animation: move 2s alternate; */
     position: relative;
-    animation-timeline: view();
+    /* animation-timeline: view(); */
 }
 
 
@@ -199,9 +200,9 @@ i + p{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    animation: move 2s alternate;
+    /* animation: move 2s alternate;
 
-    animation-timeline: view();
+    animation-timeline: view(); */
 }
 #prices i{
     font-size: 1.5em;
@@ -265,9 +266,9 @@ i + p{
     margin: auto;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    animation: move 2s alternate;
+    /* animation: move 2s alternate;
 
-    animation-timeline: view();
+    animation-timeline: view(); */
 }
 #work i{
     font-size: 8.5em;
@@ -338,9 +339,9 @@ i + p{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 30px;
-    animation: move 2s alternate;
+    /* animation: move 2s alternate;
 
-    animation-timeline: view();
+    animation-timeline: view(); */
   }
 
   #app,#accor{
@@ -391,7 +392,7 @@ i + p{
     width:100%;
     background-color:#252525 ;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
     padding: 20px;
   }
@@ -414,19 +415,21 @@ i + p{
     #logo_hero{
        display: none;
         }
+        #hero{
+            text-align: center;
+        }
+        #hero span{
+            margin-left: 0;
+        }
         #slider img{
-            display: block;
-            margin-bottom: 20px;
-            margin: 20px 5px;
-        }
-        #slider{
-            margin-left:0;
-        }
-        #hero img:not(#logo_hero){
             display: block;
             margin-bottom: 20px;
             margin: 20px auto;
         }
+        #slider{
+            margin-left:0;
+        }
+       
         #three{
             flex-direction: column;
         }
@@ -455,6 +458,14 @@ i + p{
         .panel{
             margin-left: 0;
             width:100%;
+        }
+        #app{
+            margin-top: 20px;
+        }
+        .logo {
+            vertical-align: middle;
+            width: 70px;
+            margin-left: 10px;
         }
   }
 

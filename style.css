@@ -14,7 +14,10 @@ nav{
     justify-content: space-between;
     padding: 15px;
 }
-
+#logos{
+    display:flex;
+    align-items: center;
+}
 nav h1{
     color:#fff;
     font-size: 2em;
@@ -417,6 +420,10 @@ i + p{
     #logo_hero{
        display: none;
         }
+
+    #logos{
+        justify-content:space-around;
+    }
         #hero{
             text-align: center;
         }

@@ -82,7 +82,9 @@ nav span{
     right: 40px;
     top:0;
 }
-
+.slick-track img{
+    padding:20px;
+}
 .logo:first{
     width:150px;
     margin-top: 50px;
